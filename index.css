@@ -1,0 +1,34 @@
+.container {
+  background-color: #E6E6FA;
+}
+.container p {
+  font-size: 16px;
+}
+.container .box {
+  background-color: #afc0dd;
+}
+.container .box p {
+  background-color: #8ca4cd;
+}
+
+img {
+  max-width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #6888BE;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #6888BE;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}/*# sourceMappingURL=index.css.map */
