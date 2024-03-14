@@ -17,21 +17,21 @@ $text-size: 16px;
 .container {
     background-color: $secondary-color;
     h1 {
-        $text-color: dark red;
+        $font-color: red;
     }
     h2 {
-        $text-color: aqua;
+        $font-color: aqua;
     }
     p{
-        font-size: 16px;
-    }
-    .box {
-        background-color: lighten($primary-color, 20%);
-        p{
-            background-color: lighten($primary-color, 10%);
-        }
+        $font-size: 16px;
     }
 }
+    .box {
+    background-color: lighten($primary-color, 20%);
+    p{
+        background-color: lighten($primary-color, 10%);
+    }
+    }
         img {
             max-width: 100%;
             height: 250px;
